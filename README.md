@@ -39,7 +39,9 @@ The source code of the Unity scene with DialogFlow integration is available [on 
   - For any model, an interface must be implemented for getting the generated gestures for any speech. The [`GesturePredictor` class](https://github.com/nagyrajmund/gesturebot/blob/0e359c4bb64a4eb2203146738d583c3b10137871/gesticulator/gesticulator/interface/profiling/gesture_predictor.py#L19) shows how we implemented that for Gesticulator.
 - [StyleGestures](https://github.com/simonalexanderson/StyleGestures/) is a good alternative model with a compatible codebase.
 
-###  
+###  Other 
+The recommended version of Unity is preferably 2020.3.16f1. 
+If there is no talk and video button in scenes of Unity. You can remove "Newtonsoft.Json.dll" file in Plugins subpath，it seems to be incompatible.
 
 # Acknowledgements
 The authors would like to thank [Lewis King](https://lewisbenking.github.io/) for sharing the source code of his JimBot project with us.
